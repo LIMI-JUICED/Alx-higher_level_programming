@@ -6,7 +6,7 @@
  *
  * Return: 1 palindrome, 0 not palindrome
  */
-int palindrome(listint_ **l, listint_t *r)
+int palindrome(listint_t **l, listint_t *r)
 {
 	int response;
 
@@ -29,7 +29,7 @@ int palindrome(listint_ **l, listint_t *r)
  *
  * Return: 1 palindrome, 0 not palindrome
  */
-int is_palindrome(listint **head)
+int is_palindrome(listint_t **head)
 {
 	if (head == NULL)
 	{
