@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def update_dictionary(a_dictionary, keys, value):
+def update_dictionary(a_dictionary, key, value):
     if key in a_dictionary.keys():
         a_dictionary[key] = value
     else:
